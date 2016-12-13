@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数字时钟</title>
+
+</head>
+<body>
+<img  src="img/0.jpg" alt=""/>
+<img  src="img/0.jpg" alt=""/>
+<span style="font-size: 200px">:</span>
+<img  src="img/0.jpg" alt=""/>
+<img  src="img/0.jpg" alt=""/>
+<span style="font-size: 200px">:</span>
+<img  src="img/0.jpg" alt=""/>
+<img  src="img/0.jpg" alt=""/>
+
+<script>
+    var imgs = document.getElementsByTagName('img');
+
+    function showTime() {
+        var dates = new Date();
+        var xiaos = dates.getHours();
+        var fenz  = dates.getMinutes();
+        var miaoz = dates.getSeconds();
+        var timer = null;
+
+        function getSs(num) {
+            if(num > 9 ){
+                return num+'';
+
+            }else{
+                return '0'+num;
+            }
+        }
+
+        var shijian = getSs(xiaos) +getSs(fenz)  +getSs(miaoz) ;
+
+        for(var i= 0; i<imgs.length; i++){
+            imgs[i].src = 'img/'+ shijian.charAt(i) +'.jpg';
+        }
+    }
+    showTime();
+    timer = setInterval(showTime,1000);
+
+</script>
+
+</body>
+</html>
