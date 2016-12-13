@@ -1,0 +1,202 @@
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+body{
+    background: #f4f3f3 url(../img/header-bg.png) repeat-x center top fixed;
+    font-family: "microsoft yahei";
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*导航栏*/
+.n-bg{
+    background: transparent;
+    border:0;
+    padding:20px 0;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #ddd;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #e95a44;
+}
+.n-bg.n-showbg{
+    background: #1f1c1f;
+    padding:0;
+}
+.navbar-default .navbar-brand.n-title{
+    font-weight: 600;
+    color: #fff;
+}
+
+/*头部*/
+.header{
+    height: 526px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header .h-main{
+    margin-top: 50px;
+    padding-top: 130px;
+    text-align: center;
+}
+.header .author{
+    display: block;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.header h2{
+    color: #fff;
+    display: block;
+    font-size: 3em;
+    line-height: 1em;
+    padding-top: 20px;
+}
+.header p{
+    padding-top: 15px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.maincontent{
+    margin: 526px auto 0 auto;
+    width: 100%;
+    background: #efefef url('../img/works-bg.png') repeat 0 0;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    z-index: 3;
+}
+/*作品展示*/
+.works{
+    position: relative;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.works .w-nav{
+    overflow: hidden;
+    margin-left: 10px;
+}
+.works .w-nav li{
+    float: left;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+.works .w-nav li.active{
+    background: #e95a44;
+    color: #fff;
+}
+
+.works .w-main{
+    width: 100%;
+}
+.works .w-main .filtr-item{
+    float: left;
+    padding: 20px 1%;
+    overflow: hidden;
+    display: none;
+    position: relative;
+}
+.works .w-main .filtr-item img{
+    max-width: 100%;
+    position: relative;
+    top:0;
+    left:0;
+    transition: top 0.5s linear ;
+    -webkit-transition: top 0.5s linear ;
+    -moz--transition: top 0.5s linear ;
+}
+
+.works .w-text{
+    width: 100%;
+    height: 40px;
+    background: #e95a44;
+    color: #fff;
+    padding: 5px 8px;
+    position: absolute;
+    left:0;
+    bottom: -40px;
+    transition: bottom 0.3s linear;
+}
+.works .w-text p{
+    font-size: 12px;
+    margin: 0px;
+}
+.works .w-main .filtr-item:hover .w-text{
+    bottom: 0;
+}
+.works .w-main .filtr-item:hover img{
+    top: -20px;
+}
+
+/*技能介绍*/
+.skill{
+    width: 100%;
+    /*background: #e95a44;*/
+    border-top:5px solid #e95a44;
+    margin-top: 20px;
+    position: relative;
+}
+
+/*关于我*/
+.me{
+    width: 100%;
+    /*background: #e95a44;*/
+    border-top:5px solid #e95a44;
+    margin-top: 20px;
+    position: relative;
+}
+.me img{
+    display: block;
+    max-width: 80%;
+}
+.me .wx{
+    display: inline-block;
+    max-width: 20%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.me i{
+    font-size: 20px;
+    margin: 0 5px;
+
+}
+.mt10{
+    margin-top: 20px;
+}
+.mt50{
+    height:1px;
+    width: 1px;
+    background: transparent;
+    position: absolute;
+    top:-50px;
+    left:0;
+}
+#top{
+    height:1px;
+    width: 1px;
+    background: transparent;
+    position: absolute;
+    top:0;
+    left:0;
+}
+/*页脚*/
+.footer{
+    width: 100%;
+    background: #222222;
+    color: #ddd;
+    padding: 30px 0 25px 0;
+    text-align: center;
+}
