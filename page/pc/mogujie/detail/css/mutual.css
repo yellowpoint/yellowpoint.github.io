@@ -1,0 +1,18 @@
+/*一些公共的属性*/
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+body {
+    color: #333;
+    font: 12px/1.6 tahoma, arial, sans-serif;
+}
+
+
+input{
+    outline: none;
+}

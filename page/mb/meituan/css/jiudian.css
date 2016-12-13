@@ -1,0 +1,257 @@
+/**
+    @name:酒店页面样式
+    @Author:黄典
+    @Email:870003719@qq.com
+    @Date:2016年6月27日
+*/
+body{
+    height:auto;
+    min-height: 100%;
+    position: relative;
+    min-width: 0;
+
+}
+.containe{
+    height:100%;
+    font: 100%/1 -apple-system,Roboto,PingFang SC,Noto Sans CJK SC,sans-serif;
+    padding-bottom: 3rem;
+
+}
+.containe .imglunbo{
+    height: 3.6rem;
+    overflow-x: hidden;
+}
+.containe .imglunbo .img-box{
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 3.6rem;
+}
+.containe .imglunbo .img-box img{
+   width: 100%;
+    height:100%;
+}
+/*轮播分页器位置*/
+.containe .imglunbo .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: 65px;
+}
+.containe .imglunbo .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 .06rem;
+}
+.containe .imglunbo .swiper-pagination-bullet{
+    background: #fff;
+    border: 1px solid #fff;
+    opacity: 1;
+    width: 0.1rem;
+    height: 0.1rem;
+}
+.containe .imglunbo .swiper-pagination-bullet-active{
+    opacity: 1;
+    background: #06c1ae;
+    border:1px solid #06c1ae;
+}
+
+
+
+/*酒店中间主要部分*/
+.containe .hotrlmain{
+    background: #fff;
+    margin: -1.1rem .2rem 0;
+    border: 1px solid #f3f3f3;
+    position: relative;
+    z-index: 10;
+}
+.containe .hotrlmain .h-header{
+    height: 1.1rem;
+    line-height: 1.1rem;
+    font-size: .34rem;
+    color: #333;
+    border-bottom: 1px solid #f3f3f3;
+    padding:0 .64rem;
+}
+.containe .hotrlmain .h-header .h-header-in{
+    width:50%;
+    height:100%;
+    float: left;
+    position: relative;
+}
+.containe .hotrlmain .h-header .h-header-in .text{
+    padding-right: .2rem;
+    text-align: center;
+}
+.containe .hotrlmain .h-header .h-header-in .left{
+    border-right: 1px solid #dddddd;
+}
+.containe .hotrlmain .h-header .h-header-in .downline{
+    border-radius: .06rem;
+    width: 100%;
+    height: .1rem;
+    background-color: #06c1ae;
+    position: absolute;
+    bottom:0;
+}
+.containe .hotrlmain .h-city{
+    border-bottom: 1px solid #f3f3f3;
+    margin: 0 .24rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    font-size: .34rem;
+    color: #333;
+    overflow: hidden;
+}
+.containe .hotrlmain span{
+    display: inline-block;
+    float: left;
+
+}
+.containe .hotrlmain  .title{
+    display: inline-block;
+    width: 1rem;
+    margin-right: .16rem;
+    font-size: .3rem;
+    color: #999;
+}
+.containe .hotrlmain i{
+    float: right;
+    font-size:.15rem ;
+    color: #d9d9d9;
+}
+.containe .hotrlmain .h-date{
+    border-bottom: 1px solid #f3f3f3;
+    margin: 0 .24rem;
+    font-size: .34rem;
+    color: #333;
+    overflow: hidden;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.containe .hotrlmain .h-date .date-main{
+    float: left;
+    line-height: 1;
+    padding: .25rem 0;
+}
+.containe .hotrlmain .h-date .date-main .m-wrapper{
+    height:.5rem;
+    line-height: .5rem;
+}
+.containe .hotrlmain .h-date .date-main .m-wrapper .date-date{
+    padding-right: .2rem;
+}
+.containe .hotrlmain .h-date .date-main .m-wrapper .date-desc{
+    font-size: .24rem;
+    color: #999;
+    margin-right: .1rem;
+}
+/*点击换的钟点房时间*/
+.containe .hotrlmain .zhongdian {
+    display: none;
+}
+.containe .hotrlmain .zhongdian .date-main .m-wrapper{
+    height:1.1rem;
+    line-height: 1.1rem;
+}
+
+.containe .hotrlmain .h-search{
+    border-bottom: 1px solid #f3f3f3;
+    margin: 0 .24rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    font-size: .34rem;
+    color: #ccc;
+}
+.containe .hotrlmain .h-search .my-around{
+    color: #333;
+}
+.containe .hotrlmain .h-search .search-desc{
+    font-size: .24rem;
+    color: #999;
+    margin-left: .35rem;
+}
+.containe .hotrlmain .h-btn{
+    padding: .16rem .24rem;
+}
+.containe .hotrlmain .h-btn button{
+    display: block;
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    border-radius: .06rem;
+    border: 1px solid #2bb2a3;
+    font-size: .34rem;
+    background: #2bb2a3;
+    color: #fff;
+}
+
+/*页脚*/
+.containe .footerbox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.containe .footer{
+    padding: .2rem;
+    font-size: .24rem;
+}
+.containe .footer .f-log{
+    margin-bottom: .4rem;
+}
+.containe .footer .f-log a{
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .28rem;
+    width: 1.2rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: .06rem;
+    border: 1px solid #2bb2a3;
+    color: #2bb2a3;
+}
+.containe .footer .f-links{
+    margin: .24rem 0;
+    overflow: hidden;
+}
+.containe .footer .f-links li{
+    float: left;
+    width: 20%;
+}
+.containe .footer .f-links a{
+    display: block;
+    text-align: center;
+    color: #06c1ae;
+    border-right: 1px solid #e5e5e5;
+}
+.containe .footer .f-friend{
+    width: 100%;
+    text-align: center;
+    margin: .24rem 0;
+}
+.containe .footer .f-friend a{
+    color: #06c1ae;
+}
+.containe .footer .f-icp{
+    text-align: center;
+    margin: .24rem 0;
+    position: relative;
+}
+.containe .footer .f-icp .f-icp-text{
+    background: #f0efed;
+    display: inline-block;
+    padding: 0 .3rem;
+    color: #999;
+}
+.containe .footer .f-icp .f-icp-text a{
+    color: #999;
+}
+.containe .footer .f-icp .f-icp-line{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #999;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}

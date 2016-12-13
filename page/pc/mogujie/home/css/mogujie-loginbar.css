@@ -1,0 +1,141 @@
+/*登陆条*/
+.loginbar{
+	width: 100%;
+	height: 31px;
+	background: #F2F2F2;
+	border-bottom: 1px solid #ddd;
+}
+.loginbar .text{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.loginbar .text div{
+	float: right;
+}
+
+.loginbar ul li{
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	background: #f2f2f2;
+	font-size: 12px;
+	position: relative;
+}
+
+.loginbar ul li a{
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+	padding-left: 15px;
+
+}
+
+.loginbar ul li a:visited{
+	color: #666;
+}
+
+.loginbar ul li .leftb4{
+	border-left: 1px solid #ddd;
+	padding-left: 35px;
+}
+.loginbar ul li .leftb4-jt{
+	width: 7px;
+	height: 5px;
+	background:url(../img/jiantou.png) 0 0;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.loginbar ul li .leftb3{
+	border-left: 1px solid #ddd;
+	padding-left: 18px; 
+}
+
+.loginbar ul li .leftb2{
+	border-left: 1px solid #ddd;
+	padding-left: 30px; 
+	padding-right: 18px;
+}
+.loginbar ul li .leftb1{
+	border-left: 1px solid #ddd;
+	padding-left: 30px; 
+}
+
+
+
+
+.loginbar .xiaodian{
+	background: url(../img/xiaotubiao.png) no-repeat 28px -250px;
+	padding-left: 18px;
+}
+
+.loginbar .gouwuche{
+	background: url(../img/xiaotubiao.png) no-repeat 25px -104px;
+	padding-left: 20px;
+}
+
+.loginbar .dingdan{
+	background: url(../img/xiaotubiao.png) no-repeat 27px -212px;
+	padding-left: 20px;
+}
+
+
+
+/*下拉的子菜单*/
+
+.loginbar ol {
+
+	display: none;
+	border-radius: 0 0 3px 3px;
+	border: 1px solid #ddd;
+	border-top: none;
+	width:100px;
+}
+.loginbar .ol-01{
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	z-index:1;
+}
+.loginbar .ol-02{
+	position: absolute;
+	top: 31px;
+	right: -18px;
+	z-index:1;
+}
+.loginbar .ol-03{
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	z-index:1;
+}
+
+.loginbar ol li {
+	width: 100px;
+	height: 31px;
+	text-align: center;
+}
+
+.loginbar ol li a {
+	color: #000;
+	text-decoration: none;
+	width: 100px;
+	height: 31px;
+	display: inline-block;
+	padding:0;
+
+}
+
+.loginbar ol li a:hover {
+	background: #cacaca;
+}
+
+.loginbar ol .ol-gouwuche {
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	color: #b6b6b6;
+	margin-left: -100px;
+
+}

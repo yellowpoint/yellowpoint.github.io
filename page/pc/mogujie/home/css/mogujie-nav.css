@@ -1,0 +1,33 @@
+.nav{
+	border-bottom: 1px solid #f46;
+}
+
+.nav .nav-main .nav-left{
+	width: 225px;
+	height: 36px;
+	background: #f46;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	border-radius: 3px 3px 0 0;
+}
+
+.nav .nav-main a{
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	margin-left: 40px;
+	text-decoration: none;
+	color: #333;
+	height: 36px;
+	line-height: 36px;
+}
+.nav .nav-main a:visited{
+	color: #333;
+}
+.nav .nav-main a:hover{
+	text-decoration: underline;
+}

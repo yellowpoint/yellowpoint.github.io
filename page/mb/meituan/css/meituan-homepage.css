@@ -1,0 +1,475 @@
+html,body{
+    min-width:320px;
+    font-size:50px;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: .28em;
+    line-height: 1;
+    color: #333;
+    background-color: #f0efed;
+}
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+ul,li{
+    list-style:none;
+}
+header{
+    height:1.01rem;
+    color: #fff;
+    background: #06c1ae;
+    border-bottom: 1px solid #21897d;
+    display: -webkit-box;
+    width:100%;
+}
+header .nav-left{
+    height:1.01rem;
+    line-height:1.01rem;
+}
+header .nav-left .react{
+    display:block;
+    color:inherit;
+    height:100%;
+}
+header .nav-left .react .nav-city {
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: .2rem;
+    margin-left: .2rem;
+    font-size: .32rem;
+}
+header .nav-left .react .nav-city .space{
+    display: inline-block;
+    width:.12rem;
+}
+.text-icon{
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+}
+header .box-search{
+    -webkit-box-flex: 1;
+    border-radius: .06rem;
+    background: rgba(0,0,0,.15);
+    height: .64rem;
+    line-height: .64rem;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    margin-top: .2rem;
+}
+header .box-search .fa-search{
+    position: absolute;
+    left: .2rem;
+    top:.2rem;
+    font-size: .26rem;
+    color: #fff;
+}
+header .box-search .single-line {
+    font-size: .26rem;
+    color: #68dbce;
+    padding-left: .6rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+header .nav-right{
+    height:100%;
+}
+header .nav-right .react {
+    display: inline-block;
+    height:1rem;
+    line-height: 1rem;
+    text-align: center;
+    width:.94rem;
+    margin-right: .04rem;
+    color:inherit;
+}
+header .nav-right .nav-btn {
+    display: inline-block;
+    font-size: .2rem;
+    height:1rem;
+    line-height: 1;
+    vertical-align: middle;
+}
+header .nav-right .nav-btn .mine-icon{
+    background:url("../images/btn-right.png") no-repeat center -463px;
+    background-size: 40px 500px;
+    display: block;
+    height:.7rem;
+    font-size: .4rem;
+}
+.list-in {
+    margin:0;
+    height:3.6rem;
+    border-bottom: 1px solid #DDD8CE;
+    background:#fff;
+    position: relative;
+}
+.list-in .icon-wrapper{
+    overflow: hidden;
+    font-size: inherit;
+    font-weight: 400;
+    margin:0;
+}
+.list-in .icon-wrapper .icon-list{
+    height:3.24rem;
+}
+.list-in .icon-wrapper .icon-list .icon {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 24%;
+    text-align: center;
+}
+.list-in .icon-wrapper .icon-list .icon a{
+    display:block;
+    padding:.2rem 0;
+    color: #06c1ae;
+    text-decoration: none;
+    outline: 0;
+}
+.list-in .icon-wrapper .icon-list .icon a .eat{
+    background: #FF8822;
+    display:block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff;
+}
+.list-in .icon-wrapper .icon-list .icon a .look{
+    background:#EA6644;
+    display:block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff;
+}
+.list-in .icon-wrapper .icon-list .icon a .live{
+    background: #7788F2;
+    display:block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff;
+}
+.list-in .icon-wrapper .icon-list .icon a .sing{
+    background: #f82;
+    display:block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff;
+}
+.list-in .icon-wrapper .icon-list .icon a .out{
+    background: #66CCEE;
+    display:block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff;
+}
+.list-in .icon-wrapper .icon-list .icon a .happy{
+    background:#F7BA5B;
+    display:block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff;
+}
+.list-in .icon-wrapper .icon-list .icon a .click{
+    background:#FF8822;
+    display:block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff;
+}
+.list-in .icon-wrapper .icon-list .icon a .new{
+    background:#2bb2a3;
+    display:block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff;
+}
+.list-in .icon-wrapper .icon-list .icon a .icon-desc{
+    text-align: center;
+    font-size: .24rem;
+    color: #666;
+}
+.list-in .icon-wrapper .list-ico{
+    position: absolute;
+    bottom: .22rem;
+    text-align: center;
+    width: 100%;
+    height:.35rem;
+}
+.list-in .icon-wrapper .list-ico li{
+    display: inline-block;
+    width: .16rem;
+    height: .16rem;
+    border-radius: 50%;
+    background-color: #F0EFED;
+    margin: 0 .15rem;
+}
+.list-in .icon-wrapper .list-ico .active{
+    background-color:#06c1ae;
+}
+.list-youhui{
+    border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    height:3.2rem;
+}
+.list-youhui .dd-padding {
+    padding: .12rem;
+    overflow: hidden;
+    text-align: center;
+    height:2.96rem;
+}
+.list-youhui .dd-padding .left{
+    width:34%;
+    float:left;
+    height: 2.96rem;
+}
+.list-youhui .dd-padding .left .left-height{
+    border-right: 1px solid #ddd8ce;
+    height: 2.96rem;
+}
+.list-youhui .dd-padding .right{
+    width:66%;
+    height:2.96rem;
+    float:left;
+}
+.list-youhui .dd-padding .right .top{
+    height:1.48rem;
+    width:100%;
+}
+.list-youhui .dd-padding .right .bottom{
+    height:1.47rem;
+    border-top: 1px solid #ddd8ce;
+}
+.list-youhui .dd-padding .right .bottom-left{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.list-youhui .dd-padding .right .bottom-right{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.list-youhui .dd-padding .left .left-height .info{
+    width:1.7rem;
+    margin:0 auto;
+    text-align:left;
+    display:inline-block;
+}
+.list-youhui .dd-padding .left .left-height .info strong{
+    display: block;
+    color: #55a40f;
+    font-size: .3rem;
+    margin-top: .3rem;
+    margin-bottom: .25rem;
+}
+.list-youhui .dd-padding .left .left-height .info small {
+    color: #666;
+}
+.list-youhui .dd-padding .left .left-height .imgbox{
+    width:1.76rem;
+    height:1.76rem;
+    margin:0 auto;
+    display:block;
+}
+.list-youhui .dd-padding .left .left-height .imgbox img{
+    width:88px;
+    height:88px;
+}
+.list-youhui .dd-padding .right .top a{
+    text-align:center;
+    height:1.46rem;
+    width:100%;
+    display:inline-block;
+}
+.list-youhui .dd-padding .right .top .info{
+    width:1.7rem;
+    margin:0 auto;
+    text-align:left;
+    vertical-align: top;
+    display:inline-block;
+}
+.list-youhui .dd-padding .right .top .info strong{
+    display: block;
+    color: #ff3f0d;
+    font-size: .3rem;
+    margin-top: .3rem;
+    margin-bottom: .25rem;
+}
+.list-youhui .dd-padding .right .top .info small {
+    color: #666;
+}
+.list-youhui .dd-padding .right .top a .imgbox{
+    width:1.3rem;
+    height:1.3rem;
+    margin:0 auto;
+    display:inline-block;
+}
+.list-youhui .dd-padding .right .top .imgbox img{
+    height:100%;
+}
+.list-youhui .dd-padding .right .bottom-left a{
+    text-align:center;
+    height:1.46rem;
+    border-right: 1px solid #ddd8ce;
+    width:100%;
+    display:inline-block;
+}
+.list-youhui .dd-padding .right .bottom-left .info{
+    width:1.7rem;
+    text-align:left;
+    vertical-align: top;
+    display:inline-block;
+}
+.list-youhui .dd-padding .right .bottom-left .info strong{
+    display: block;
+    color: #f742a0;
+    font-size: .3rem;
+    margin-top: .12rem;
+    margin-bottom: .12rem;
+}
+.list-youhui .dd-padding .right .bottom-left .info small{
+    color: #666;
+}
+
+.list-youhui .dd-padding .right .bottom-left a .imgbox{
+    width:.8rem;
+    height:.8rem;
+    display:block;
+    margin:0 auto;
+}
+.list-youhui .dd-padding .right .bottom-left .imgbox img{
+    height:40px;
+    width:40px;
+}
+
+.list-youhui .dd-padding .right .bottom-right a{
+    text-align:center;
+    height:1.46rem;
+    width:100%;
+    display:inline-block;
+}
+.list-youhui .dd-padding .right .bottom-right .info{
+    width:1.7rem;
+    text-align:left;
+    vertical-align: top;
+    display:inline-block;
+}
+.list-youhui .dd-padding .right .bottom-right .info strong{
+    display: block;
+    color: #ff8601;
+    font-size: .3rem;
+    margin-top: .12rem;
+    margin-bottom: .14rem;
+}
+.list-youhui .dd-padding .right .bottom-right .info small{
+    color: #666;
+    display: block;
+    margin-bottom: .2rem;
+    margin-top: .2rem;
+}
+
+.list-youhui .dd-padding .right .bottom-right a .time-panel{
+    text-align:left;
+}
+.list-youhui .dd-padding .right .bottom-right a .time-panel .hour{
+    display: inline-block;
+    background-color: #4C4C4C;
+    width: .4rem;
+    height: .3rem;
+    border-radius: .06rem;
+    text-align: center;
+    line-height: .3rem;
+    font-size: .24rem;
+    color: #fff;
+}
+.list-youhui .dd-padding .right .bottom-right a .time-panel .min{
+    display: inline-block;
+    background-color: #4C4C4C;
+    width: .4rem;
+    height: .3rem;
+    border-radius: .06rem;
+    text-align: center;
+    line-height: .3rem;
+    font-size: .24rem;
+    color: #fff;
+}
+.list-youhui .dd-padding .right .bottom-right a .time-panel .sec{
+    display: inline-block;
+    background-color: #4C4C4C;
+    width: .4rem;
+    height: .3rem;
+    border-radius: .06rem;
+    text-align: center;
+    line-height: .3rem;
+    font-size: .24rem;
+    color: #fff;
+}
+.guesslike{
+    border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    min-height: 5rem;
+}
+
+
+

@@ -1,0 +1,450 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+img{
+    /*vertical-align: middle;*/
+    display: block;
+    border:0;       /*ie9上图片有2px的边框*/
+}
+
+input{
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    border:0;
+}
+ul,li{
+    list-style: none;
+}
+
+.container{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    overflow: hidden;
+    min-width: 900px;
+    background: #fff;
+}
+/*头部开始*/
+.header{
+    width: 100%;
+    height:108px;
+    background: #4a4a4a;
+    overflow: hidden;
+}
+.header .logo{
+    width: 106px;
+    height: 18px;
+    margin-top: 45px;
+    margin-left: 83px;
+    float: left;
+}
+.header .menu{
+    margin-left: 24px;
+    height: 108px;
+    line-height: 108px;
+    overflow: hidden;
+    float: left;
+}
+.header .menu a{
+    float: left;
+    color: #fff;
+    margin: 0 10px;
+}
+.header .share{
+    float: right;
+    margin-right: 80px;
+    margin-top: 44px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.header .share a{
+    display: inline-block;
+    margin: 0 6px;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+
+/*头部结束*/
+
+/*Featured部分开始*/
+.featured{
+    width:100%;
+    height:520px;
+    border-bottom:5px solid #e5e4e4;
+    overflow: hidden;
+    position: relative;
+}
+.featured .f-previous{
+    width: 48px;
+    height:48px;
+    background: #46ad8f url('../img/Previous-slide-btn.png') no-repeat center center;
+    position: absolute;
+    top:236px;
+    left:0;
+    z-index: 2;
+    cursor: pointer;
+}
+.featured .f-next{
+    width: 48px;
+    height:48px;
+    background: #46ad8f url('../img/Next-slide-btn.png') no-repeat center center;
+    position: absolute;
+    top:236px;
+    right:0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.featured .f-mainbox{
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    background: #f7f7f7;
+}
+.featured .f-main{
+    overflow: hidden;
+    margin: 60px auto;
+    width: 940px;
+}
+.featured .f-mainbox ul{
+    width: 99999px;
+    overflow: hidden;
+    /*margin-left: -940px;*/
+}
+.featured .f-mainbox ul li{
+    float: left;
+}
+.featured .f-img{
+    width: 535px;
+    height:400px;
+    background: #11919a;
+    float: left;
+}
+.featured .f-img img{
+    width: 100%;
+    height:100%;
+
+}
+.featured .f-text{
+    float: left;
+    width: 355px;
+    height:400px;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 10px;
+    color: #4a4a4a;
+}
+.featured .f-text h3{
+    margin-top: 50px;
+}
+.featured .f-text h1{
+    margin-top: 30px;
+    font-size: 28px;
+}
+.featured .f-text .f-intro{
+    margin-top: 40px;
+    color: #999;
+    line-height: 1.5;
+    width: 325px;
+}
+.featured .f-text .f-intro span{
+    color: #75c1ab;
+}
+.featured .f-text .f-detail{
+    display: block;
+    margin-top: 40px;
+    color: #75c1ab;
+    text-align: right;
+}
+.featured .f-text .f-detail:hover{
+    text-decoration: underline;
+}
+.featured .f-text .f-detail span{
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background: url(../img/Next-arrow-icon.png) no-repeat center;
+    margin-left:5px ;
+}
+
+
+/*Featured部分结束*/
+
+/*Recent部分开始*/
+.recent{
+    width: 940px;
+    height:1065px;
+    margin: 0 auto;
+}
+.recent h3{
+    margin-top:80px ;
+}
+.recent .r-imgbox{
+    margin-top:50px ;
+    width: 940px;
+    height:690px;
+}
+.recent .r-imgbox .r-img3{
+    float: left;
+    width: 293px;
+    height:690px;
+    margin-right: 30px;
+}
+.recent .r-imgbox .r-img3.r-img{
+    margin-right: 0;
+    /*background: #324043;*/
+    overflow: hidden;
+}
+.recent .r-imgbox .r-img3 .r-img{
+    height:330px;
+    /*background: #324043;*/
+    overflow: hidden;
+}
+.recent .r-imgbox .r-img3 .r-img:first-child{
+    margin-bottom: 30px;
+}
+.recent .r-img a{
+    display: block;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+}
+.recent .r-img img{
+    width:100%;
+    height:100%;
+}
+
+/*图片上的黑色透明背景和文字*/
+.recent .r-img .r-coverbox{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    display: none;
+}
+.recent .r-img a:hover .r-coverbox{
+    display: block;
+}
+.recent .r-img .r-text{
+    height:330px;
+    padding:0 40px;
+    color: #fff;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.recent .r-img .r-cover{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: rgba(0,0,0,0.5);
+}
+
+.recent .r-img .r-text img{
+    margin-top: 74px;
+    width: 213px;
+    height:34px;
+}
+.recent .r-img .r-text p{
+    margin-top: 44px;
+    line-height: 1.5;
+}
+.recent .r-img .r-text .see{
+    margin: 0 auto;
+    margin-top: 36px;
+    width: 178px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 19px;
+}
+
+/*长图片文字重新定位*/
+.recent .r-imgbox .r-img3:last-child .r-text img{
+    margin-top: 274px;
+}
+
+
+.recent .r-more{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 180px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color:#fff;
+    background: #46ad8f;
+    border-radius: 24px;
+    cursor: pointer;
+}
+/*Recent部分结束*/
+
+/*Testimonials部分开始*/
+.testimonials{
+    width:100%;
+    height:650px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+.testimonials .t-main{
+    width:940px;
+    height:650px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.testimonials .t-main h3{
+    margin-top: 90px;
+}
+.testimonials .t-main .t-text{
+    margin: 0 auto;
+    margin-top: 60px;
+    width:665px;
+    height:254px;
+    border:1px solid #e3e3e3;
+    background: #fff;
+    padding:0 65px 0 50px;
+    display: none;
+}
+.testimonials .t-main .t-text.active{
+    display: block;
+}
+.testimonials .t-main .t-text h4{
+    margin-top: 40px;
+}
+.testimonials .t-main .t-text p{
+    width: 640px;
+    height:93px;
+    margin-top: 36px;
+    line-height: 1.5;
+    color: #999;
+    overflow: hidden;
+}
+.testimonials .t-main .t-text .t-info{
+    margin-top: 15px;
+}
+.testimonials .t-main .t-text .t-info .t-infoleft{
+    float: left;
+    color: #77c3ad;
+}
+.testimonials .t-main .t-text .t-info .t-infoleft span{
+    display: inline-block;
+    width: 20px;
+    height: 11px;
+    background: url(../img/Tag-icon.png) no-repeat center;
+    margin-right:5px ;
+}
+
+.testimonials .t-main .t-text .t-info .t-inforight{
+     float: right;
+    color: #77c3ad;
+}
+.testimonials .t-main .t-text .t-info .t-inforight span{
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background: url(../img/Next-arrow-icon.png) no-repeat center;
+    margin-left:5px ;
+}
+.testimonials .t-main .t-text .t-info a:hover{
+    text-decoration: underline;
+}
+
+.testimonials .t-main .t-clientbox{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 400px;
+    overflow: hidden;
+}
+.testimonials .t-main .t-clientbox .t-client{
+    width: 100px;
+    height:88px;
+    overflow: hidden;
+    float: left;
+    margin: 0 15px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.testimonials .t-main .t-clientbox .t-client.active{
+    opacity:1;
+}
+.testimonials .t-main .t-clientbox .t-client .picture{
+    margin: 0 auto;
+    width: 66px;
+    height:66px;
+    border-radius: 50%;
+    /*background: #0C4D8B;*/
+    overflow: hidden;
+}
+.testimonials .t-main .t-clientbox .t-client .picture img{
+    width: 100%;
+    height:100%;
+}
+.testimonials .t-main .t-clientbox .t-client .name{
+    margin: 0 auto;
+    margin-top: 6px;
+    width: 100px;
+    height: 19px;
+    overflow:hidden;
+    text-align: center;
+}
+
+
+/*Testimonials部分结束*/
+
+/*页脚开始*/
+
+.footer{
+    width: 100%;
+    height: 275px;
+    background: #4a4a4a;
+    color: #fff;
+    overflow: hidden;
+}
+.footer .f-main{
+    width: 440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer .f-main .f-menu{
+    width: 274px;
+    margin: 0 auto;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.footer .f-main .f-menu a{
+    float: left;
+    color: #fff;
+    margin: 0 10px;
+}
+.footer .f-main .f-share{
+    width: 165px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 40px;
+
+}
+.footer .f-main .f-share a{
+    display: inline-block;
+    margin: 0 6px;
+}
+.footer .f-main .f-text{
+    width: 440px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+/*页脚结束*/

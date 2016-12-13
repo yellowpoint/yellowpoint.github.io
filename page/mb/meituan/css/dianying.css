@@ -1,0 +1,238 @@
+/**
+    @Nmae:美团美食页面
+    @Author:何敏
+    @email:30530035@qq.com
+    @Date:2016.06.27
+*/
+nav .nav{
+    display: -webkit-box;
+    height: .84rem;
+    background: #fff;
+    border-bottom: 1px solid #c6c0b3;
+    text-align: center;
+    line-height: .84rem;
+}
+nav .nav li{
+    -webkit-box-flex: 1;
+    width: 100%;
+    color: #666;
+    border-left: 1px solid #c6c0b3;
+}
+nav .nav li:first-child{
+    border: 0;
+}
+nav .nav i{
+    display: inline-block;
+    border-top: .15rem solid #B7B7B7;
+    border-left: .09rem solid transparent;
+    border-right: .09rem solid transparent;
+    border-bottom: 0;
+    margin-left: .12rem;
+}
+section ul{
+    padding-left: .2rem;
+    border: 0;
+    background: #fff;
+    border-bottom: 1px solid #DDD8CE;
+}
+section ul li{
+    border-bottom: 1px solid #DDD8CE;
+}
+section ul li:last-child{
+    border-bottom:0;
+}
+section ul li .react{
+    padding: .28rem .2rem .28rem 0;
+    display: block;
+}
+section ul li .react .cinemacard{
+    box-sizing: border-box;
+    margin: -.08rem 0;
+    color: #333;
+}
+section ul li .react .cinemacard h5{
+    display: inline-block;
+    margin-bottom: .12rem;
+    font-size: .3rem;
+    font-weight: 400;
+    color: #333;
+    margin-top: .14rem;
+    line-height: 1.1;
+}
+section ul li .react .cinemacard .tubiao{
+    background-color: #06c1ae;
+    padding: .02rem .04rem;
+    border-radius: 20%;
+    color: #fff;
+}
+.stars {
+    display: inline-block;
+    color: #f90;
+    font-size: .28rem;
+    margin-top: .16rem;
+    margin-bottom: .12rem;
+}
+.stars i {
+    margin-right: .2em;
+}
+.text-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+}
+.text-icon .icon-star-half {
+    position: absolute;
+    left: 0;
+    width: .45em;
+    overflow: hidden;
+}
+.text-icon.icon-star-half:after {
+    content: '★';
+}
+.text-icon.icon-star:after {
+    content: '★';
+}
+.text-icon.icon-star-gray{
+    position: relative;
+}
+.text-icon.icon-star-gray:after {
+    color: #E2E2E2;
+    content: '★';
+}
+section ul li .react .cinemacard .price{
+    position: relative;
+}
+section ul li .react .cinemacard .price .strong{
+    color: #06c1ae;
+    font-size: .38rem;
+}
+section ul li .react .cinemacard .price .strong-color{
+    color: #06c1ae;
+}
+section ul li .react .cinemacard .price .line-right{
+    position: absolute;
+    top: .04rem;
+    right: 0;
+    font-size: .24rem;
+    color:#666;
+}
+.deals-list .list-in .pager{
+    padding: .16rem .2rem .16rem 0;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    height: .6rem;
+    line-height: .6rem;
+    border-radius: .06rem;
+    font-size: .28rem;
+    padding: 0 .3rem;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.btn-weak{
+    border: .02rem solid #06c1ae;
+    padding: 0 .3rem;
+    background: 0;
+    color: #06c1ae;
+}
+.btn-disabled{
+    background: #dcdcdc;
+    color: #999;
+    border: 0;
+}
+.deals-list .list-in .pager .pager-current{
+    color: #666;
+    display: inline-block;
+    width: .45rem;
+    text-align: center;
+}
+.nav-bread{
+    padding: .3rem .2rem 0 .2rem;
+    margin-bottom: .3rem;
+    font-size: .24rem;
+    color: #06c1ae;
+}
+footer{
+    padding: 0 .2rem .4rem .2rem;
+}
+footer .footer-bar{
+    margin-bottom: .4rem;
+    font-size: .28rem;
+}
+footer .footer-bar .space{
+    display: inline-block;
+    width: .12rem;
+}
+footer .footer-bar .pull-right{
+    float: right;
+}
+footer .footer-bar .pull-right .city-btn{
+    width: 1.8rem;
+}
+footer .footer-nav{
+    margin-bottom: .18rem;
+}
+footer .footer-nav ul{
+    padding: .18rem 0;
+    font-size: .24rem;
+    display: -webkit-flex;
+}
+footer .footer-nav ul li{
+    -webkit-box-flex: 1;
+    width: 100%;
+    border-right: .02rem solid #666;
+    text-align: center;
+}
+footer .footer-nav ul li:last-child{
+    border: 0;
+}
+footer .footer-nav ul li a{
+    color: #06c1ae;
+}
+footer .footer-links{
+    font-size: .24rem;
+    margin: .3rem .2rem;
+    text-align: center;
+}
+footer .footer-links a{
+    color: #06c1ae;
+}
+footer .footer-copyright{
+    color: #999;
+    font-size: .22rem;
+    text-align: center;
+    position: relative;
+}
+footer .footer-copyright .hr{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #999;
+}
+footer .footer-copyright .footer-text{
+    padding: 0 .3rem;
+    background-color: #f0efed;
+    position: relative;
+}
+footer .footer-copyright .footer-text a{
+    color: #999;
+}
+.gotop{
+    position: fixed;
+    right: .3rem;
+    bottom: 1.5rem;
+    width: .86rem;
+    height: .86rem;
+    line-height: .86rem;
+    background: #06c1ae;
+    z-index: 999;
+    border-radius: 50%;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+.gotop i{
+    font-size: .5rem;
+}

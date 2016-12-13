@@ -1,0 +1,174 @@
+/*滚动后出现的搜索框*/
+.top-search{
+    height: 50px;
+    width: 100%;
+    background: #000000;
+    font: 12px/1.6 tahoma,arial,sans-serif;
+    position: fixed;
+    top: -50px;
+    letf:0;
+    z-index: 999;
+    background: rgba(0,0,0,.8);
+}
+.top-search-main{
+    height:50px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*搜索框左边logo*/
+
+.top-search .left{
+    width: 220px;
+    height:50px;
+    background: url(../img/topsearch.png) no-repeat 0 center;
+    float: left;
+}
+.top-search .left a{
+    display: block;
+    width: 120px;
+    height:50px;
+}
+
+/*搜索框右边*/
+
+.top-search .right{
+    width: 740px;
+    height: 50px;
+    float: left;
+    margin-top: 6px;
+
+}
+.top-search .right-sou,.top-search .right-btn{
+    float: left;
+}
+/*搜商品*/
+
+.top-search .right-sou{
+    position: relative;
+}
+.top-search .right-sou span{
+    display: block;
+    width: 58px;
+    height: 33px;
+    line-height: 32px;
+    padding-left: 12px;
+    color: #666;
+    cursor: pointer;
+    border-radius: 4px 0 0 4px;
+    background: url(../img/xiaotubiao02.png) no-repeat 51px -17px;
+    background-color: #fff;
+}
+.top-search .right-sou:hover ul{
+    display: block;
+}
+
+.top-search .right-sou ul{
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    width: 70px;
+    background: #fff;
+    border: 1px solid #cecece;
+    border-top: 1px solid #3a3a3a;
+    display: none;
+}
+.top-search .right-sou a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+.top-search .right-sou a:hover{
+    background: #F2F2F2;
+}
+
+/*搜索文本框*/
+
+.top-search .right-btn .s-text{
+    float: left;
+    width:494px;
+    height: 21px;
+    line-height: 20px;
+    padding: 6px 10px 6px 6px;
+    border: none;
+    color: #999;
+    font-size: 12px;
+    outline: none;
+}
+.top-search .right-btn .s-icon{
+    float: left;
+    height: 33px;
+    overflow: hidden;
+    width: 70px;
+    border:none;
+    color: #fff;
+    background: url(../img/xiaotubiao02.png) no-repeat 27px -57px;
+    background-color: #f46;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+    cursor: pointer;
+}
+
+/*点击搜索框出现的搜索记录*/
+.top-search .right-btn{
+    position: relative;
+}
+.top-search .right-btn .itext-xia02{
+    position: absolute;
+    left: -71px;
+    top: 33px;
+    width: 648px;
+    min-height: 100px;
+    z-index: 999;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    border-top: 1px solid #3a3a3a;
+    display: none;
+}
+.top-search .right-btn .itext-xia02 p{
+    padding: 10px;
+    color: #999;
+    height: 16px;
+    line-height: 16px;
+}
+.top-search .right-btn .itext-xia02 p a{
+    float: right;
+    color: #666;
+}
+.top-search .right-btn .itext-xia02 .itext-xiap202:hover{
+    background:#F2F2F2 ;
+}
+.top-search .right-btn .itext-xia02 .itext-xiap202 a{
+    text-decoration: none;
+}
+
+
+/*点击搜索框出现的搜索提示*/
+.top-search .right .autocompleter{
+    left: -71px;
+    top: 33px;
+    width: 648px;
+    min-height: 100px;
+    z-index: 999;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    border-top: 1px solid #3a3a3a;
+}
+.top-search .right .autocompleter li{
+    padding: 10px;
+    color: #999;
+    height: 16px;
+    line-height: 16px;
+}
+.top-search .right .autocompleter li:hover{
+    background:#F2F2F2 ;
+}
+
+

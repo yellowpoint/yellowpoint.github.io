@@ -1,0 +1,21 @@
+
+<ion-view title="ddddd" class="b-detail">
+
+
+    <ion-content>
+
+
+        <div ng-if="hasLoading" style="margin-top:60px; text-align: center">
+            <ion-spinner icon="ios" style="height: 60px; width: 60px;"></ion-spinner>
+        </div>
+
+        <div ng-if="!hasLoading">
+            <h2>{{ item.subject }}</h2>
+            <div class="padding" ng-bind-html="item.message"></div>
+        </div>
+
+
+    </ion-content>
+
+
+</ion-view>

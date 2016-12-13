@@ -1,0 +1,120 @@
+
+/*登陆条*/
+.loginbar{
+	width: 100%;
+	height: 31px;
+	background: #F2F2F2;
+	border-bottom: 1px solid #ddd;
+}
+
+
+/*搜索栏*/
+.search{
+	width: 960px;
+	height: 144px;
+	margin: 0 auto;
+}
+
+/*导航栏*/
+.nav{
+	width: 100%;
+	height: 36px;
+}
+.nav .nav-main{
+	width: 960px;
+	margin: 0 auto;
+}
+/*热点展示*/
+.hot{
+	width: 960px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+/*限时抢购*/
+.timelimit{
+	width: 960px;
+	height: 300px;
+	margin: 0 auto;
+	border-top: 1px solid black;
+	margin-top: 80px;
+}	
+.timelimit .left{
+	width: 223px;
+	height: 295px;
+	float: left;
+	border: 1px solid #ddd;
+	border-top: none;
+	border-bottom: 5px solid #f46;
+	
+}
+.timelimit .left img{
+	width: 223px;
+	height: 245px;
+	margin-top: 50px;
+	position:absolute;
+	z-index: -1;
+}
+.timelimit .left .price{
+	background: url(../img/btn.png) no-repeat 0 -310px;
+	width: 75px;
+	height: 75px;
+	margin-left: 141px;
+	margin-top: 200px;
+	display: block;
+}
+.timelimit .left .price .p-num{
+	font-size: 16px;
+	color: white;
+	display: block;
+	line-height: 16px;
+	text-align: center;
+	width: 75px;
+	padding-top: 20px;
+}
+.timelimit .left .price .p-name{
+	font-size: 12px;
+	color: white;
+	display: block;
+	text-align: center;
+	width: 75px;
+	padding-top: 3px;
+}
+
+
+.timelimit .center{
+	width: 335px;
+	height: 300px;
+	float: left;
+	margin-left: 20px;
+}
+.timelimit .center img{
+	width: 335px;
+	height: 300px;
+}
+.timelimit .right{
+	width: 360px;
+	height: 300px;
+	float: left;
+}
+.timelimit .right img{
+	width: 360px;
+	height: 145px;
+	display: block;
+	margin-left: 20px;
+
+}
+.timelimit .right .img004{
+	margin-top:10px;
+}
+
+/*主体内容*/
+.main{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*页脚*/
+.footer{
+	width: 100%;;
+}

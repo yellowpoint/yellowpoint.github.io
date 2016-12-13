@@ -1,0 +1,154 @@
+html,body{
+    width:100%;
+}
+img{
+    display: black;
+}
+input{
+    margin: 0;
+    padding:0;
+    outline: none;
+    border:none;
+}
+.containe{
+    min-width: 320px;
+    font-family: arial;
+}
+/*头部*/
+.containe .header{
+    height:44px;
+    background: #3e98f0;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+}
+.containe .header .back{
+    float: left;
+    width:34px;
+    height: 100%;
+    background: url(../images/bg-new-toolbar_6e9bc53.png) no-repeat center -216px;
+    background-size: 40px 500px;
+    -webkit-background-size: 40px 500px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.containe .header .title{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 44px;
+}
+/*搜索框*/
+.containe .searchbox{
+    margin: 10px 10px 0 10px;
+
+}
+.containe .searchbox .search{
+     display: -webkit-box;
+     display: -moz-box;
+     display: -o-box;
+     display: -ms-flexbox;
+     display: flex;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #ececec;
+}
+.containe .searchbox .search .s-text{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    -o-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    padding-left: 4px;
+}
+.containe .searchbox .search .s-text input{
+    float: left;
+    height:34px;
+    width: 100%;
+    font-size: 16px;
+}
+.containe .searchbox .s-sub{
+    height: 34px;
+    line-height: 34px;
+    width: 84px;
+    color: #000;
+    cursor: pointer;
+    background: #fcfcfc;
+    border-left:1px solid #ececec ;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0!important;
+}
+
+/*主要内容搜索排行*/
+.containe .main{
+    overflow: hidden;
+    min-height: 400px;
+    padding: 0 10px 14px;
+}
+.containe .main .m-title{
+    height: 16px;
+    padding-left: 7px;
+    font-size: 16px;
+    line-height: 1em;
+    border-left: 3px solid #239bf0;
+    color: #262b31;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.containe .main .m-hotwords{
+    height: 38px;
+    margin: 6px 0;
+    padding: 0 0 3px 38px;
+    font-size: 16px;
+    line-height: 38px;
+    color: #262b31;
+    border-bottom: 1px solid #f6f6f6;
+    background: url(../images/searchbox-hotword_41ffa98.png) -99px 0 no-repeat;
+    background-size: 28px auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.containe .main .m-hotwords a{
+    display: block;
+    text-decoration: none;
+    color: #262b31;
+}
+.containe .main .m-hotwords:nth-of-type(1){
+    background-position: 2px -2px;
+}
+.containe .main .m-hotwords:nth-of-type(2){
+    background-position: 2px -47px;
+}
+.containe .main .m-hotwords:nth-of-type(3){
+    background-position: 2px -91px;
+}
+.containe .main .m-hotwords:nth-of-type(4){
+    background-position: 2px -136px;
+}
+.containe .main .m-hotwords:nth-of-type(5){
+    background-position: 2px -178px;
+}
+.containe .main .m-hotwords:nth-of-type(6){
+    background-position: 2px -224px;
+}
+.containe .main .m-hotwords:nth-of-type(7){
+    background-position: 2px -268px;
+}
+.containe .main .m-hotwords:nth-of-type(8){
+    background-position: 2px -314px;
+}
+.containe .main .m-hotwords:nth-of-type(9){
+    background-position: 2px -360px;
+}
+.containe .main .m-hotwords:nth-of-type(10){
+    background-position: 2px -406px;
+    border-bottom: 0;
+}
+
+
+

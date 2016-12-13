@@ -1,0 +1,166 @@
+.hot .hot-left{
+	width: 223px;
+	height: 549px;
+	float: left;
+	border: 1px solid red;
+	border-top: 0px;
+}
+.hot .hot-center{
+	width: 715px;
+	height: 530px;
+	float: left;
+	margin: 20px 0px 0 20px;
+	
+}
+.hot .hot-left li{
+	float: left;
+	margin-left: 10px;
+	height: 38px;
+	line-height: 38px;
+}
+.hot .hot-left li a{
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+}
+.hot .hot-left li a:hover{
+	text-decoration: underline;
+}
+.hot .hot-left .first a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	margin-right: 5px;
+}
+
+.hot .hot-left .lg-border{
+	border-right: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	padding: 0 6px;
+}
+
+
+.hot .hot-left ul{
+	height: 38px;
+	margin: 0 7px;
+	border-bottom:  1px dashed #ccc;
+}
+.hot .hot-left .red{
+	color: #f46;
+}
+.hot .hot-left .last ul{
+	border-bottom:none;
+}
+
+/*图片轮播的*/
+.imglunbo{
+	width: 715px;
+	height:530px;
+	position: relative;
+}
+.imglunbo .my-slider{
+	width:100%;
+}
+.imglunbo .unslider-nav{
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	width:100%;
+}
+.imglunbo .unslider-arrow{
+	display: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -24px;
+	width: 28px;
+	height: 45px;
+	z-index: 10;
+	opacity: .4;
+	filter: alpha(opacity=40);
+	background: url(../img/lunbozuoyou.png) no-repeat;
+	text-indent: -99999px;
+}
+.imglunbo .next{
+	background-position: -50px 0;
+}
+
+/*导航栏右边出现的子菜单*/
+
+.hot-left{
+	position: relative;
+}
+.hot-left .hl-ul .nav-more{
+	position: absolute;
+	top:0px;
+	left: 223px;
+	height: 528px;
+	padding-bottom: 20px;
+	width: 290px;
+	border:1px solid #dddddd;
+	background: #fff;
+	z-index: 998;
+	display: none;
+}
+.hot-left .hl-ul .nav-more a{
+	text-decoration:none;
+	color: #333;
+}
+.hot-left .hl-ul .nav-more a:hover{
+	text-decoration: underline;
+}
+.hot-left .hl-ul .nav-more .nm-hot{
+	color: #f36;
+}
+.hot-left .hl-ul .nav-more dl{
+	width: 250px;
+	margin: 14px 20px 20px;
+	max-height: 90px;
+	overflow: hidden;
+	float: left;
+}
+.hot-left .hl-ul .nav-more dt{
+	height: 14px;
+	line-height: 14px;
+	color: #333;
+	font-family: "宋体",sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.hot-left .hl-ul .nav-more dd{
+	float: left;
+	margin: 2px 0 0 -20px;
+}
+.hot-left .hl-ul .nav-more dd a{
+	height: 12px;
+	line-height: 12px;
+	margin: 12px 0 0 20px;
+	font-size: 12px;
+	float: left;
+	color: #666;
+}
+.hot-left .hl-ul .nav-more .nm-img{
+	float: left;
+	width: 250px;
+	margin: 18px 20px 20px 20px;
+}
+
+.hot-left .elect{
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding-top: 1px;
+}
+
+/*挡住每条菜单右边框的白条*/
+.hot .hot-left ul{
+	position: relative;
+}
+.hot .hot-left ul .nm-bt{
+	position: absolute;
+	top:0;
+	right:-8px;
+	z-index: 999;
+	width: 1px;
+	height: 38px;
+	background: #fff;
+	display: none;
+}

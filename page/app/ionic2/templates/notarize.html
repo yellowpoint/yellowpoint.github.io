@@ -1,0 +1,56 @@
+
+<ion-view title="三斤耗儿鱼-点菜" class="notarize">
+    <div class="bar bar-subheader bar-light has-header">
+        <a class="button button-clear icon ion-ios-arrow-left" href="#/tab/main"></a>
+       <p class="title">确认订单</p>
+    </div>
+    <ion-content class="has-subheader n-main">
+
+
+        <ion-list class="n-list">
+            <ion-item ng-repeat="item in list track by $index">
+
+
+                <div class="n-item">
+
+                    <div class="n-name">{{ item.name }}</div>
+                    <div class="n-price">￥{{ item.price }}/{{ item.unit }}</div>
+                    <div class="n-num">
+                        <div class="n-jia" ng-click="jia($index)"></div>
+                        <div class="n-shuz">{{ item.num }}</div>
+                        <div class="n-jian" ng-click="jian($index)"></div>
+
+
+                    </div>
+
+                </div>
+
+
+            </ion-item>
+        </ion-list>
+
+
+
+
+    </ion-content>
+    <div class="bar bar-subfooter n-remark">
+        <form>
+            <input type="text" placeholder="备注：(选填)请输入您的口味、要求、忌口等"/>
+        </form>
+    </div>
+    <ion-footer-bar class="bar-dark index-footer">
+        <div class="f-left">已点{{ num }}道菜</div>
+        <div class="f-right" ng-click="showConfirm()">传送厨房</div>
+    </ion-footer-bar>
+
+
+    <div class="tc" ng-if=showTc>
+        <div class="main">
+            <div class="text">确定让厨房开始制作菜品了吗？</div>
+            <div class="btnbox">
+                <div class="btn" ng-click="quxiao()">取消</div>
+                <a class="btn" ng-click="queren()" href="#/continue">确认</a>
+            </div>
+        </div>
+    </div>
+</ion-view>

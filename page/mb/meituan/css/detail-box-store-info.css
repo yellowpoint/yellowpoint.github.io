@@ -1,0 +1,106 @@
+
+.store-info{
+    height:3.6rem;
+    background-color: #fff;
+    border-top: 1px solid #DDD8CE;
+    padding-left: .2rem;
+    margin-top:15px;
+    border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-bottom: 0;
+
+}
+.store-info .bizinfo{
+    font-size: .34rem;
+    color: #333;
+    padding: .28rem .2rem;
+    padding-bottom: .2rem;
+    padding-left:0;
+    border-bottom: 1px solid #DDD8CE;
+    overflow: hidden;
+    font-weight: 400;
+    height:0.34rem;
+    line-height:0.34rem;
+}
+.store-info .dd-padding{
+    border-bottom: 1px solid #DDD8CE;
+    padding: .28rem .2rem;
+    padding-left:0;
+    height:1.3rem;
+    display: -webkit-flex;
+}
+.store-info .dd-padding .left{
+    -webkit-flex: 1;
+    display:block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.store-info .dd-padding .left a{
+    display:block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.store-info .dd-padding .left h5{
+    font-size: .32rem;
+    margin-top: 0;
+    margin-bottom: .18rem;
+    color: #000;
+    height: 0.34rem;
+}
+
+.store-info .dd-padding .left .dizhi{
+    padding-right: .2rem;
+    color: #666;
+    height: 0.28rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.store-info .dd-padding .left .juli{
+    display: block;
+    /* margin-left: .3rem; */
+    margin-top: .1rem;
+    color: #EB8706;
+}
+.store-info .dd-padding .left .juli i{
+    color: #666;
+    margin-right:20px;
+}
+.store-info .dd-padding .right{
+    float: right;
+    width: 1.4rem;
+    text-align: center;
+    border-left: 1px solid #DDD8CE;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+.store-info .dd-padding .right a i{
+    color: #06c1ae;
+    font-size: .5rem;
+}
+.store-info .db{
+    padding-right: .3rem;
+    height:0.8rem;
+    line-height:0.8rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.store-info .db a{
+    color: #06c1ae;
+}
+.store-info .db i{
+    position: absolute;
+    right: .25rem;
+    top: 50%;
+    display: block;
+    content: '';
+    width: .6em;
+    height: .6em;
+    border-left: .04rem solid #06c1ae;
+    border-bottom: .04rem solid #06c1ae;
+    -webkit-transform: translateY(-50%) scaleY(0.7) rotateZ(-135deg);
+
+}

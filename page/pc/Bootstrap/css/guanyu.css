@@ -1,0 +1,64 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    color: #666;
+}
+
+/*导航条开始*/
+.nav-logo{
+    padding:0;
+}
+.navbar{
+    margin-bottom: 0;
+}
+/*导航条结束*/
+
+/*巨幕*/
+.jm-bg{
+    background-image: url(../images/bg.jpg);
+    margin: 50px 0 0 0;
+    color: #ccc;
+}
+.jumbotron h1 {
+    font-size: 36px;
+    padding: 0 0 0 20px;
+}
+.jumbotron h4 {
+    font-size: 18px;
+    padding: 0 0 0 20px;
+}
+
+/*正文*/
+.main{
+    background-color: #eee;
+    padding: 40px 15px;
+}
+.main a{
+    color: #0059b2;
+}
+.main a:hover,.main a:focus{
+    color: #0059b2;
+}
+.m-right{
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #ccc;
+}
+.main h3 {
+    color: #333;
+    font-size: 22px;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    margin: 0 0 10px 0;
+}
+.main p {
+    line-height: 2;
+    font-size: 16px;
+}
+
+/*页脚*/
+.footer{
+    background-color: #666;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+}
