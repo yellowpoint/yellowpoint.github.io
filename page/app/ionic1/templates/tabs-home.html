@@ -1,0 +1,36 @@
+
+<ion-view title="首页">
+
+    <div ng-if="hasLoading" style="margin-top:60px; text-align: center">
+        <ion-spinner icon="ios" style="height: 60px; width: 60px;"></ion-spinner>
+    </div>
+
+    <ion-content>
+
+        <div ng-if="!hasLoading" class="home-lunbo">
+            <ion-slide-box does-continue="true" >
+                <ion-slide>
+                    <a href="##" class="imgbox"><img src="http://www.phonegap100.com/data/attachment/portal/201512/19/170428hjfikdf4p4sj1diz.jpg" alt=""/></a>
+                </ion-slide>
+                <ion-slide>
+                    <a href="##" class="imgbox"><img src="http://www.phonegap100.com/data/attachment/portal/201606/28/211604ullzo5arr4iurnum.jpg" alt=""/></a>
+                </ion-slide>
+                <ion-slide>
+                    <a href="##" class="imgbox"><img src="http://www.phonegap100.com/data/attachment/portal/201510/30/212849qdtzzhx2i6t2x5rk.png" alt=""/></a>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+        <ion-list ng-if="!hasLoading">
+            <ion-item class="item-thumbnail-left" ng-repeat="item in items" href="#/tab/home-detail/{{ item.aid }}">
+                <img src="http://www.phonegap100.com/data/attachment/{{ item.pic }}"/>
+                <h2> {{item.title}}</h2>
+            </ion-item>
+        </ion-list>
+
+        <ion-infinite-scroll on-infinite="loadMore()"  distance="1%" icon="ion-load-a" ng-if="hasData()" ></ion-infinite-scroll>
+
+    </ion-content>
+
+
+
+</ion-view>

@@ -1,0 +1,25 @@
+
+<ion-view title="论坛">
+
+    <ion-content>
+        <ion-refresher pulling-text="拼命加载中..." on-refresh="refresh()" spinner="ios" ng-if="hasData()"></ion-refresher>
+
+
+        <div ng-if="hasLoading" style="margin-top:60px; text-align: center">
+            <ion-spinner icon="ios" style="height: 60px; width: 60px;"></ion-spinner>
+        </div>
+
+        <div ng-if="!hasLoading">
+
+            <ion-list>
+                <ion-item ng-repeat="item in items" href="#/tab/bbs-detail/{{ item.tid }} ">
+                    {{item.subject}}
+                </ion-item>
+            </ion-list>
+
+        </div>
+
+
+
+    </ion-content>
+</ion-view>
