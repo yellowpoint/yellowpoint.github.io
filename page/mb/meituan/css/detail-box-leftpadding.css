@@ -1,0 +1,35 @@
+
+
+
+
+.detail-box .leftpadding{
+    margin-top:15px;
+    border-top: 1px solid #DDD8CE;
+    padding-left: .2rem;
+    background-color: #fff;
+}
+.detail-box .leftpadding .voice{
+    font-size: .34rem;
+    color: #333;
+    padding: .28rem .2rem;
+    padding-bottom: .2rem;
+    padding-left:0;
+    border-bottom: 1px solid #DDD8CE;
+    overflow: hidden;
+    font-weight: 400;
+    height:0.34rem;
+    line-height:0.34rem;
+}
+.detail-box .leftpadding .voice-info{
+    border-bottom: 1px solid #DDD8CE;
+    padding: .28rem .2rem;
+    padding-left:0;
+    line-height: 1.41;
+    text-align: justify;
+    margin: -.2em 0;
+    word-break: break-all;
+    color: #eb8706;
+    overflow: hidden;
+    font-size: inherit;
+    font-weight: 400;
+}
